@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7457BCD8247D40F400ABDB5C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCD7247D40F400ABDB5C /* UIViewExtension.swift */; };
+		7457BCDA247D428000ABDB5C /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCD9247D428000ABDB5C /* CardDetails.swift */; };
+		7457BCDC247D43C300ABDB5C /* CustomerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCDB247D43C300ABDB5C /* CustomerInfo.swift */; };
+		7457BCDE247D443900ABDB5C /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCDD247D443900ABDB5C /* CardInfo.swift */; };
+		7457BCE0247D445C00ABDB5C /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCDF247D445C00ABDB5C /* CardType.swift */; };
+		7457BCE2247D447D00ABDB5C /* CardBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCE1247D447D00ABDB5C /* CardBrand.swift */; };
+		7457BCE4247D46BB00ABDB5C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCE3247D46BB00ABDB5C /* UIColorExtension.swift */; };
+		7457BCE7247D6B7300ABDB5C /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCE6247D6B7300ABDB5C /* AppColor.swift */; };
+		7457BCE9247E7D2900ABDB5C /* CardForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCE8247E7D2900ABDB5C /* CardForegroundView.swift */; };
+		7457BCEB247E7E1300ABDB5C /* CardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCEA247E7E1300ABDB5C /* CardBackgroundView.swift */; };
+		7457BCED247E7ED400ABDB5C /* CardListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCEC247E7ED400ABDB5C /* CardListModel.swift */; };
+		7457BCEF247E842000ABDB5C /* CardActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCEE247E842000ABDB5C /* CardActionsView.swift */; };
+		7457BCF1247E8BCC00ABDB5C /* ActionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457BCF0247E8BCC00ABDB5C /* ActionItemView.swift */; };
+		748E5592247D0F550030EF95 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E5591247D0F550030EF95 /* CardView.swift */; };
+		748E5595247D3C870030EF95 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E5594247D3C870030EF95 /* CardViewCell.swift */; };
+		7490D205247D0494009FC123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D204247D0494009FC123 /* AppDelegate.swift */; };
+		7490D209247D0494009FC123 /* CardListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D208247D0494009FC123 /* CardListTableViewController.swift */; };
+		7490D20C247D0494009FC123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7490D20A247D0494009FC123 /* Main.storyboard */; };
+		7490D20E247D0499009FC123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7490D20D247D0499009FC123 /* Assets.xcassets */; };
+		7490D211247D0499009FC123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7490D20F247D0499009FC123 /* LaunchScreen.storyboard */; };
+		7490D21C247D0499009FC123 /* CredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D21B247D0499009FC123 /* CredTests.swift */; };
+		7490D227247D0499009FC123 /* CredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D226247D0499009FC123 /* CredUITests.swift */; };
+		7490D238247D056C009FC123 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D237247D056C009FC123 /* Coordinator.swift */; };
+		7490D23B247D05C9009FC123 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D23A247D05C9009FC123 /* RootCoordinator.swift */; };
+		7490D23E247D06AA009FC123 /* NavigationBarCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D23D247D06AA009FC123 /* NavigationBarCustomizable.swift */; };
+		7490D240247D0746009FC123 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D23F247D0746009FC123 /* UIViewControllerExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7490D218247D0499009FC123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7490D1F9247D0494009FC123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7490D200247D0494009FC123;
+			remoteInfo = Cred;
+		};
+		7490D223247D0499009FC123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7490D1F9247D0494009FC123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7490D200247D0494009FC123;
+			remoteInfo = Cred;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7457BCD7247D40F400ABDB5C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		7457BCD9247D428000ABDB5C /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
+		7457BCDB247D43C300ABDB5C /* CustomerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfo.swift; sourceTree = "<group>"; };
+		7457BCDD247D443900ABDB5C /* CardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		7457BCDF247D445C00ABDB5C /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		7457BCE1247D447D00ABDB5C /* CardBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBrand.swift; sourceTree = "<group>"; };
+		7457BCE3247D46BB00ABDB5C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7457BCE6247D6B7300ABDB5C /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		7457BCE8247E7D2900ABDB5C /* CardForegroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardForegroundView.swift; sourceTree = "<group>"; };
+		7457BCEA247E7E1300ABDB5C /* CardBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackgroundView.swift; sourceTree = "<group>"; };
+		7457BCEC247E7ED400ABDB5C /* CardListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListModel.swift; sourceTree = "<group>"; };
+		7457BCEE247E842000ABDB5C /* CardActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardActionsView.swift; sourceTree = "<group>"; };
+		7457BCF0247E8BCC00ABDB5C /* ActionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItemView.swift; sourceTree = "<group>"; };
+		748E5591247D0F550030EF95 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		748E5594247D3C870030EF95 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		7490D201247D0494009FC123 /* Cred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7490D204247D0494009FC123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7490D208247D0494009FC123 /* CardListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTableViewController.swift; sourceTree = "<group>"; };
+		7490D20B247D0494009FC123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7490D20D247D0499009FC123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7490D210247D0499009FC123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7490D212247D0499009FC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7490D217247D0499009FC123 /* CredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7490D21B247D0499009FC123 /* CredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredTests.swift; sourceTree = "<group>"; };
+		7490D21D247D0499009FC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7490D222247D0499009FC123 /* CredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7490D226247D0499009FC123 /* CredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredUITests.swift; sourceTree = "<group>"; };
+		7490D228247D0499009FC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7490D237247D056C009FC123 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7490D23A247D05C9009FC123 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		7490D23D247D06AA009FC123 /* NavigationBarCustomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarCustomizable.swift; sourceTree = "<group>"; };
+		7490D23F247D0746009FC123 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7490D1FE247D0494009FC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D214247D0499009FC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D21F247D0499009FC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7457BCE5247D6B6600ABDB5C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7457BCE6247D6B7300ABDB5C /* AppColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		748E5593247D3C7B0030EF95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				748E5591247D0F550030EF95 /* CardView.swift */,
+				748E5594247D3C870030EF95 /* CardViewCell.swift */,
+				7457BCE8247E7D2900ABDB5C /* CardForegroundView.swift */,
+				7457BCEA247E7E1300ABDB5C /* CardBackgroundView.swift */,
+				7457BCEE247E842000ABDB5C /* CardActionsView.swift */,
+				7457BCF0247E8BCC00ABDB5C /* ActionItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7490D1F8247D0494009FC123 = {
+			isa = PBXGroup;
+			children = (
+				7490D203247D0494009FC123 /* Cred */,
+				7490D21A247D0499009FC123 /* CredTests */,
+				7490D225247D0499009FC123 /* CredUITests */,
+				7490D202247D0494009FC123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7490D202247D0494009FC123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7490D201247D0494009FC123 /* Cred.app */,
+				7490D217247D0499009FC123 /* CredTests.xctest */,
+				7490D222247D0499009FC123 /* CredUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7490D203247D0494009FC123 /* Cred */ = {
+			isa = PBXGroup;
+			children = (
+				7457BCE5247D6B6600ABDB5C /* Constants */,
+				748E5593247D3C7B0030EF95 /* Views */,
+				7490D241247D0869009FC123 /* Models */,
+				7490D23C247D0619009FC123 /* ViewControllers */,
+				7490D239247D05AD009FC123 /* Coordinators */,
+				7490D236247D0531009FC123 /* Extensions */,
+				7490D235247D0529009FC123 /* Protocols */,
+				7490D204247D0494009FC123 /* AppDelegate.swift */,
+				7490D20A247D0494009FC123 /* Main.storyboard */,
+				7490D20D247D0499009FC123 /* Assets.xcassets */,
+				7490D20F247D0499009FC123 /* LaunchScreen.storyboard */,
+				7490D212247D0499009FC123 /* Info.plist */,
+			);
+			path = Cred;
+			sourceTree = "<group>";
+		};
+		7490D21A247D0499009FC123 /* CredTests */ = {
+			isa = PBXGroup;
+			children = (
+				7490D21B247D0499009FC123 /* CredTests.swift */,
+				7490D21D247D0499009FC123 /* Info.plist */,
+			);
+			path = CredTests;
+			sourceTree = "<group>";
+		};
+		7490D225247D0499009FC123 /* CredUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7490D226247D0499009FC123 /* CredUITests.swift */,
+				7490D228247D0499009FC123 /* Info.plist */,
+			);
+			path = CredUITests;
+			sourceTree = "<group>";
+		};
+		7490D235247D0529009FC123 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7490D237247D056C009FC123 /* Coordinator.swift */,
+				7490D23D247D06AA009FC123 /* NavigationBarCustomizable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7490D236247D0531009FC123 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7490D23F247D0746009FC123 /* UIViewControllerExtension.swift */,
+				7457BCD7247D40F400ABDB5C /* UIViewExtension.swift */,
+				7457BCE3247D46BB00ABDB5C /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7490D239247D05AD009FC123 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				7490D23A247D05C9009FC123 /* RootCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		7490D23C247D0619009FC123 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7490D208247D0494009FC123 /* CardListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7490D241247D0869009FC123 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7457BCD9247D428000ABDB5C /* CardDetails.swift */,
+				7457BCDB247D43C300ABDB5C /* CustomerInfo.swift */,
+				7457BCDD247D443900ABDB5C /* CardInfo.swift */,
+				7457BCDF247D445C00ABDB5C /* CardType.swift */,
+				7457BCE1247D447D00ABDB5C /* CardBrand.swift */,
+				7457BCEC247E7ED400ABDB5C /* CardListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7490D200247D0494009FC123 /* Cred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7490D22B247D0499009FC123 /* Build configuration list for PBXNativeTarget "Cred" */;
+			buildPhases = (
+				7490D1FD247D0494009FC123 /* Sources */,
+				7490D1FE247D0494009FC123 /* Frameworks */,
+				7490D1FF247D0494009FC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cred;
+			productName = Cred;
+			productReference = 7490D201247D0494009FC123 /* Cred.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7490D216247D0499009FC123 /* CredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7490D22E247D0499009FC123 /* Build configuration list for PBXNativeTarget "CredTests" */;
+			buildPhases = (
+				7490D213247D0499009FC123 /* Sources */,
+				7490D214247D0499009FC123 /* Frameworks */,
+				7490D215247D0499009FC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7490D219247D0499009FC123 /* PBXTargetDependency */,
+			);
+			name = CredTests;
+			productName = CredTests;
+			productReference = 7490D217247D0499009FC123 /* CredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7490D221247D0499009FC123 /* CredUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7490D231247D0499009FC123 /* Build configuration list for PBXNativeTarget "CredUITests" */;
+			buildPhases = (
+				7490D21E247D0499009FC123 /* Sources */,
+				7490D21F247D0499009FC123 /* Frameworks */,
+				7490D220247D0499009FC123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7490D224247D0499009FC123 /* PBXTargetDependency */,
+			);
+			name = CredUITests;
+			productName = CredUITests;
+			productReference = 7490D222247D0499009FC123 /* CredUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7490D1F9247D0494009FC123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kumar, Karthik";
+				TargetAttributes = {
+					7490D200247D0494009FC123 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					7490D216247D0499009FC123 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7490D200247D0494009FC123;
+					};
+					7490D221247D0499009FC123 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 7490D200247D0494009FC123;
+					};
+				};
+			};
+			buildConfigurationList = 7490D1FC247D0494009FC123 /* Build configuration list for PBXProject "Cred" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7490D1F8247D0494009FC123;
+			productRefGroup = 7490D202247D0494009FC123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7490D200247D0494009FC123 /* Cred */,
+				7490D216247D0499009FC123 /* CredTests */,
+				7490D221247D0499009FC123 /* CredUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7490D1FF247D0494009FC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490D211247D0499009FC123 /* LaunchScreen.storyboard in Resources */,
+				7490D20E247D0499009FC123 /* Assets.xcassets in Resources */,
+				7490D20C247D0494009FC123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D215247D0499009FC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D220247D0499009FC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7490D1FD247D0494009FC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748E5592247D0F550030EF95 /* CardView.swift in Sources */,
+				7490D240247D0746009FC123 /* UIViewControllerExtension.swift in Sources */,
+				7457BCE4247D46BB00ABDB5C /* UIColorExtension.swift in Sources */,
+				7457BCDC247D43C300ABDB5C /* CustomerInfo.swift in Sources */,
+				748E5595247D3C870030EF95 /* CardViewCell.swift in Sources */,
+				7490D23B247D05C9009FC123 /* RootCoordinator.swift in Sources */,
+				7457BCEB247E7E1300ABDB5C /* CardBackgroundView.swift in Sources */,
+				7490D23E247D06AA009FC123 /* NavigationBarCustomizable.swift in Sources */,
+				7490D238247D056C009FC123 /* Coordinator.swift in Sources */,
+				7457BCDE247D443900ABDB5C /* CardInfo.swift in Sources */,
+				7457BCE7247D6B7300ABDB5C /* AppColor.swift in Sources */,
+				7457BCF1247E8BCC00ABDB5C /* ActionItemView.swift in Sources */,
+				7457BCE9247E7D2900ABDB5C /* CardForegroundView.swift in Sources */,
+				7457BCED247E7ED400ABDB5C /* CardListModel.swift in Sources */,
+				7457BCD8247D40F400ABDB5C /* UIViewExtension.swift in Sources */,
+				7490D209247D0494009FC123 /* CardListTableViewController.swift in Sources */,
+				7490D205247D0494009FC123 /* AppDelegate.swift in Sources */,
+				7457BCE2247D447D00ABDB5C /* CardBrand.swift in Sources */,
+				7457BCEF247E842000ABDB5C /* CardActionsView.swift in Sources */,
+				7457BCDA247D428000ABDB5C /* CardDetails.swift in Sources */,
+				7457BCE0247D445C00ABDB5C /* CardType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D213247D0499009FC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490D21C247D0499009FC123 /* CredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490D21E247D0499009FC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490D227247D0499009FC123 /* CredUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7490D219247D0499009FC123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7490D200247D0494009FC123 /* Cred */;
+			targetProxy = 7490D218247D0499009FC123 /* PBXContainerItemProxy */;
+		};
+		7490D224247D0499009FC123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7490D200247D0494009FC123 /* Cred */;
+			targetProxy = 7490D223247D0499009FC123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7490D20A247D0494009FC123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7490D20B247D0494009FC123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7490D20F247D0499009FC123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7490D210247D0499009FC123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7490D229247D0499009FC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7490D22A247D0499009FC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7490D22C247D0499009FC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = Cred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.Cred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7490D22D247D0499009FC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = Cred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.Cred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7490D22F247D0499009FC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = CredTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cred.app/Cred";
+			};
+			name = Debug;
+		};
+		7490D230247D0499009FC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = CredTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cred.app/Cred";
+			};
+			name = Release;
+		};
+		7490D232247D0499009FC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = CredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cred;
+			};
+			name = Debug;
+		};
+		7490D233247D0499009FC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D2RLU56NL;
+				INFOPLIST_FILE = CredUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.CredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cred;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7490D1FC247D0494009FC123 /* Build configuration list for PBXProject "Cred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490D229247D0499009FC123 /* Debug */,
+				7490D22A247D0499009FC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7490D22B247D0499009FC123 /* Build configuration list for PBXNativeTarget "Cred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490D22C247D0499009FC123 /* Debug */,
+				7490D22D247D0499009FC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7490D22E247D0499009FC123 /* Build configuration list for PBXNativeTarget "CredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490D22F247D0499009FC123 /* Debug */,
+				7490D230247D0499009FC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7490D231247D0499009FC123 /* Build configuration list for PBXNativeTarget "CredUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490D232247D0499009FC123 /* Debug */,
+				7490D233247D0499009FC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7490D1F9247D0494009FC123 /* Project object */;
+}
